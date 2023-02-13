@@ -10,10 +10,15 @@ catkin_make
 source devel/setup.bash
 ```
 
-## 2. Open a terminal and run the following commands
+## 2. Open a terminal and run the following command
+```
+roslaunch rosbot_ekf all.launch rosbot_pro:=true
+```
+
+## 3. Open a separate terminal and run the following
 ```
 cd ~/path_plan/src/tutorial_pkg
-roslaunch rosbot_ekf all.launch
+roslaunch tutorial_pkg maze_world.launch
 ```
 
 ## 3. Set up your rviz
