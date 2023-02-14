@@ -36,7 +36,7 @@ rosrun map_server map_saver -f maze_map
 ## 6. Final launch
 ```
 cd ~/path_plan/src/tutorial_pkg
-roslaunch tutorial_pkg tutorial_9.launch 
+roslaunch tutorial_pkg final.launch 
 ```
 
 ## 7. Open another terminal to run rviz
